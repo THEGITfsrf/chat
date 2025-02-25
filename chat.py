@@ -1,6 +1,6 @@
 import os
 import asyncio
-import aioredis
+from redis import asyncio as aioredis
 import uvloop
 import socket
 import uuid
